@@ -1,5 +1,21 @@
 .header {
     padding: 20px;
-    margin: 50px;
-    background: wheat;
+    background: var(--primary);
+    font-style: italic;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header__a--home {
+    font-size: larger;
+    color: var(--secondary);
+    font-style: normal;
+    
 }
