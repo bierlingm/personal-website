@@ -1,8 +1,10 @@
 @import "variables"; // Placed at the beginning so that base & utils can already use it
-@import "base";
 @import "utils";
+@import "base";
+
 
 // components:
+@import "components/card";
 @import "components/header";
 @import "components/stage";
 @import "components/skills";

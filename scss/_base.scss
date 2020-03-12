@@ -10,8 +10,10 @@ body {
     background-color: var(--primary);
     height: 100vh;
     max-width: fit-content;
-    display: grid;
-    grid-template-rows: 1fr 5fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: scroll;
     margin: 0px;
     padding: 0px;
 }
@@ -21,6 +23,7 @@ a {
 
     &:hover {
         color: var(--quaternary);
+        border-color: var(--quaternary);
     }
 
     &:visited {
@@ -29,8 +32,4 @@ a {
             color: var(--quaternary);
         }
     }
-}
-
-img {
-    width: 100vw;
 }

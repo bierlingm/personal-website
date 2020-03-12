@@ -1,11 +1,11 @@
 .header {
-    padding: 1rem;
     background-color: var(--secondary);
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100vw;
     display: grid;
-    grid-template-rows: 3fr 2fr;
-    gap: 1rem;
+    grid-template-rows: 48px 28px;
+    gap: 8px;
     text-align: center;
 }
 
@@ -18,10 +18,16 @@
 }
 
 .header__nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
 }
 
 .header__nav__a {
     text-decoration: none;
+    border-top: 3px solid var(--tertiary);
+    border-right: 3px solid var(--tertiary);
+    border-left: 3px solid var(--tertiary);
+    text-align: center;
+    padding-top: 4px;
 }
