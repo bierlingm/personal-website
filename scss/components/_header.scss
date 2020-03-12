@@ -1,5 +1,8 @@
+@import "header-colors"
+
 .header {
     padding: 20px;
     margin: 50px;
-    background: wheat;
+@import "components/header-colors"
+    background: var(--header-background);
 }
