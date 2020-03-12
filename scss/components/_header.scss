@@ -1,21 +1,27 @@
 .header {
-    padding: 20px;
-    background: var(--primary);
-    font-style: italic;
+    padding: 1rem;
+    background-color: var(--secondary);
     position: fixed;
-    left: 0;
-    right: 0;
+    width: 100vw;
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}
+
+.header__a--home {
+    margin-top: .75rem;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--tertiary) !important;
+    }
 }
 
 .header__nav {
     display: flex;
-    flex-direction: row;
-
+    justify-content: space-evenly;
 }
 
-.header__a--home {
-    font-size: larger;
-    color: var(--secondary);
-    font-style: normal;
-    
+.header__nav__a {
+    text-decoration: none;
 }

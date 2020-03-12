@@ -11,7 +11,22 @@ body {
     height: 100vh;
     max-width: fit-content;
     display: grid;
-    gap: 5rem;
     margin: 0px;
     padding: 0px;
 }
+
+a {
+    color: var(--tertiary);
+
+    &:hover {
+        color: var(--quaternary);
+    }
+
+    &:visited {
+        color: var(--tertiary);
+        &:hover {
+            color: var(--quaternary);
+        }
+    }
+}
+
