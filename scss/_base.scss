@@ -10,4 +10,8 @@ body {
     background-color: var(--primary);
     height: 100vh;
     max-width: fit-content;
+    display: grid;
+    gap: 5rem;
+    margin: 0px;
+    padding: 0px;
 }
