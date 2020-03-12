@@ -4,12 +4,12 @@
     position: fixed;
     width: 100vw;
     display: grid;
+    grid-template-rows: 3fr 2fr;
     gap: 1rem;
     text-align: center;
 }
 
 .header__a--home {
-    margin-top: .75rem;
     text-decoration: none;
 
     &:hover {
