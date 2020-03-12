@@ -1,0 +1,18 @@
+// Only for type selectors
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--primary);
+    background-color: var(--secondary);
+    height: 100vh;
+
+    &:hover {
+        background-color: var(--tertiary);
+        align-content: center;
+        justify-content: center;
+    }
+}
